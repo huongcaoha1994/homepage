@@ -1,0 +1,169 @@
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    margin-top: -5%;
+    overflow: hidden;
+  }
+  
+  .slide {
+      width: 100%;
+      height: 100%;
+    display: none;
+  }
+  .btn-outline-danger {
+    width: 10%;
+    height: 5vh;
+   
+  }
+ .btn-outline-danger:hover {
+    
+    background-color: red;
+    color: white;
+ }
+ 
+ #content1 {
+    width: 100%;
+    height: 35vh;
+    text-align: center;
+  
+ }
+.content-h1 {
+    font-size: 300%;
+}
+ #slogan {
+    display: flex;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+ }
+ .image-container {
+   
+    display: flex; 
+    
+  }
+  
+  .image-container img {
+   width: 33%;
+   height: 60vh;
+    transition: width 0.3s ease;
+  }
+  
+  .image-container img:hover {
+    width: 40%;
+  }
+  .product-item {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .product-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+
+  .product-item:hover img {
+    transform: scale(1.05);
+  }
+
+  .product-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .product-item:hover .product-details {
+    opacity: 1;
+  }
+
+ #container-employee {
+    display: flex;
+    margin-top: 5%;
+ }
+ #table-price {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/image_tableprice.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    margin-top: 5%;
+    
+  
+ }
+ #table-price .sub-content {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+
+ }
+ #table-price .sub-content h1 {
+    line-height: 30vh;
+    font-size: 500%;
+    color: #fff;
+ }
+ #table-price .list-price {
+    width: 100%;
+    height: 70vh;
+    background-color: aliceblue;
+    text-align: center;
+    
+ }
+ 
+ 
+ .title-price {
+    height: 5vh;
+    background-color: rgb(245, 53, 15);
+    color: white;
+    text-align: center;
+ }
+
+ .title-price h5 {
+    line-height: 5vh;
+ }
+ 
+ .title-price .h5:hover {
+    background-color: black;
+ }
+
+ #working-process {
+    width: 100%;
+    height: 35vh;
+    background-image: url("../image/quytrinhlamviec.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+ #working-process h1 {
+    line-height: 35vh;
+    color: #fff;
+ }
+
+ footer {
+    width: 100%;
+    height: 60vh ;
+    background-color: #1e1b1b;
+    color: #fff;
+ }
+ #footer-container {
+    display: flex;
+    color: #fff;
+ }
+ svg {
+    margin-right: 2%;
+ }
+ .footer-box {
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 23%;
+ }
+ 
