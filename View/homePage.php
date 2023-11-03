@@ -14,16 +14,32 @@
     <?php 
     include("header.html") ;
     ?>
-    <div class="slideshow-container">
-        <img class="slide" src="../image/banner1.jpg" alt="banner1">
-        <img class="slide" src="../image/banner2.jpg" alt="banner2">
-        <img class="slide" src="../image/banner3.jpg" alt="banner3">
+   <div id="carouselExample" class="carousel slide py-30" style="margin-top: -10%;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../image/banner1.jpg" class="d-block w-100" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src="../image/banner2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../image/banner3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
     <div id="content1">
         <div id="slogan">
 
-            <h1 class="content-h1" style="margin-right:20px">KIẾN TRÚC </h1>
+            <h1 class="content-h1" style="margin-right:2%">KIẾN TRÚC </h1>
             <h1 class="content-h1" style="color:red"> AVAHOME</h1>
         </div>
         <h3 style="margin-bottom:1%">ĐƠN VỊ THIẾT KẾ KIẾN TRÚC VÀ XÂY DỰNG HÀNG ĐẦU CỦA XU HƯỚNG KIẾN TRÚC HIỆN ĐẠI</h3>
@@ -38,7 +54,7 @@
 
     <div id="slogan">
 
-        <h1 class="content-h1" style="margin-right:20px">DỰ ÁN </h1>
+        <h1 class="content-h1" style="margin-right:2%">DỰ ÁN </h1>
         <h1 class="content-h1" style="color:red">BIỆT THỰ HIỆN ĐẠI</h1>
     </div>
 
@@ -48,7 +64,7 @@
 
     <div id="slogan">
 
-        <h1 class="content-h1" style="margin-right:20px">KIẾN TRÚC | </h1>
+        <h1 class="content-h1" style="margin-right:2%">KIẾN TRÚC | </h1>
         <h1 class="content-h1" style="color:red">NHÀ PHỐ</h1>
     </div>
 
@@ -58,7 +74,7 @@
 
     <div id="slogan">
 
-        <h1 class="content-h1" style="margin-right:20px"></h1>
+        <h1 class="content-h1" style="margin-right:2%"></h1>
         <h1 class="content-h1" style="color:red">NỘI THẤT</h1>
     </div>
 
@@ -77,14 +93,10 @@
         <img src="../image/employee8.jpg" alt="Image 8" class="img-fluid" width="12.5%" height="20vh">
     </div>
 
-    <div id="table-price">
-        <div class="sub-content">
-            <h1>Bảng Giá Thiết Kế</h1>
-        </div>
-        <div class="list-price">
-            <div class="container">
+    <div class="container">
+            <h1 class="text-center py-3">Bảng Giá Thiết Kế</h1>
                 <div class="row" style="margin-top:10px">
-                    <div class="col-sm-3">
+                    <div class="col-6 col-lg-3">
                         <div class="card">
                             <div class="card-body">
                                 <div class="title-price">
@@ -114,7 +126,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-3">
+                    <div class="col-6 col-lg-3">
                         <div class="card">
                             <div class="card-body">
                                 <div class="title-price">
@@ -143,7 +155,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-3">
+                    <div class="col-6 col-lg-3">
                         <div class="card">
                             <div class="card-body">
                                 <div class="title-price">
@@ -172,7 +184,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-3">
+                    <div class="col-6 col-lg-3">
                         <div class="card">
                             <div class="card-body">
                                 <div class="title-price">
@@ -201,8 +213,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
     </div>
 
     <div id="working-process">
