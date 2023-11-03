@@ -52,7 +52,7 @@
     if ($result_product->num_rows > 0) {
       while ($row = $result_product->fetch_assoc()) {
         ?>
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4 mb-4 text-center">
           <div class="product-item">
             <img src="<?php echo $row['image']; ?>" alt="<?php echo $row['product_name']; ?>" class="img-fluid">
             <div class="product-details">
